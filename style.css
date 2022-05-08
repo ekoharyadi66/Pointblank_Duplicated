@@ -1,0 +1,1965 @@
+/*https://www.pointblank.id/game/download LINK YANG DI CONTOHIN ZOOM 67 LIATIN FOKUS SAMA UKURANNYA!*/
+/* /images/dim_bk70.png MENTAHANNYA PB YANG DI INSPECT
+NEXT https://www.pointblank.id/pccafe/login loginya
+*/
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 72px;
+    background: #111111;
+}
+
+.logo{
+    width: 265px;
+    height: 72px;
+    background: #000000;
+    margin: 0px 24px 0px 0px;
+    float: left;
+}
+
+.logo img{
+    margin-left: 14%;
+    margin-top: 8%;
+    user-select: none;
+}
+
+/*MENU UL LI*/
+.menu-bar{
+    width: 1000px;
+    height: 72px;
+    float: left;
+}
+
+.menu-bar ul{
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: -0.5;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #bbbbbb;
+}
+
+.menu-bar ul li a:hover{
+    color: #FFCC00;
+    transition: 0.5s;
+}
+
+.sub-menu1{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu1{
+    display: block;
+    /*background: yellow;*/
+    margin-left: -15px;
+    position: absolute;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul{
+    display: block;
+    margin: 15px;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-radius: 0;
+    text-align: left ;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu1 ul li a:hover{
+    color: #ffffff;
+}
+
+.fa{
+    float: left;
+    color: wheat;
+}/*SELESAI MENU UL LI*/
+
+
+.login-2{
+    width: 132px;
+    height: 72px;
+    background: red;
+    float: right;
+    z-index: 9999;
+}
+
+.register{
+    width: 132px;
+    height: 36px;
+    background: #cc0000;
+    overflow: hidden;
+    border-bottom: 1px solid #000000;
+}
+
+.register input{
+    width: 132px;
+    height: 36px;
+    background: none;
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 10px;
+    cursor: pointer;    
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    border: none;
+    text-align: justify;
+    outline: none;
+}
+
+.register a{
+    text-decoration: none;
+}
+
+.register:hover{
+    background: #ff3f34;
+    transition: 1s;
+}
+
+.register input:hover{
+    color: #ffffff;
+    transition: 1s;
+}
+
+
+.login{
+    width: 132px;
+    height: 35px;
+    background: #333333;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.login input{
+    width: 132px;
+    height: 35px;
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;    
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    text-align: justify;
+    outline: none;
+}
+
+.login a{
+    text-decoration: none;
+}
+
+.login:hover{
+    background: #1e272e;
+    transition: 1s;
+}
+
+.login input:hover{
+    color: #FFCC00;
+    transition: 1s;
+}
+
+/*KONTEN*/
+.ukuran-conten{
+    width: 100%;
+    height:  1950px;
+    background: #0E0A0B;
+    position: relative;
+}
+
+.conten{
+    width: 1920px;
+    height: 1950px;
+    background: url(Gambar/BG-CONTEN.jpg) no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.title-conten{
+    width: 1920px;
+    height: 100px;
+    margin-top: 4%;
+    float: left;
+}
+
+.title-conten h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: #ffffff;
+    letter-spacing:10px;
+}
+
+.title-conten-2{
+    width: 1920px;
+    height: 45px;
+    float: left;
+}
+
+.kotak-1{
+    width: 185px;
+    height: 40px;
+    float: left;
+    margin-left:19%;
+    background: #0F0909;
+    border-top: 1px solid #999798;
+    border-right: 1px solid #999798;
+    border-left: 1px solid #999798;
+    border-bottom: 1px solid #999798;
+}
+
+.kotak-1:hover{
+    background: #000000;
+    transition: 0.9s;
+    cursor: pointer;
+    border-top: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    border-left: 1px solid #ff0000;
+}
+
+.kotak-1 input:hover{
+    color: #ff0000;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.kotak-1 input{
+    height: 40px;
+    text-align: center;
+    width: 184px;
+    color: #999798;
+    overflow: hidden;
+    float: left;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/*
+.kotak-1 i{
+    margin-top: 26px;
+    float: left;
+    color: #999798;
+}*/
+
+.kotak-2{
+    width: 185px;
+    height: 40px;
+    background: #0F0909;
+    border-top: 1px solid #999798;
+    border-right: 1px solid #999798;
+    border-left: 1px solid #999798;
+    border-bottom: 1px solid #999798;
+    float: left;
+    margin-left: 10px;
+}
+
+.kotak-2:hover{
+    background: #000000;
+    transition: 0.9s;
+    cursor: pointer;
+    border-top: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    border-left: 1px solid #ff0000;
+}
+
+.kotak-2 input:hover{
+    color: #ff0000;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.kotak-2 input{
+    text-align: center;
+    width: 185px;
+    height: 40px;
+    color: #999798;
+    overflow: hidden;
+    float: left;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*
+.kotak-2 i{
+    margin-top: 26px;
+    float: left;
+    color: #999798;
+}*/
+
+.kotak-3{
+    width: 185px;
+    height: 40px;
+    background: #0F0909;
+    border-top: 1px solid #999798;
+    border-right: 1px solid #999798;
+    border-left: 1px solid #999798;
+    border-bottom: 1px solid #999798;
+    float: left;
+    margin-left: 10px;
+}
+
+.kotak-3:hover{
+    background: #000000;
+    transition: 0.9s;
+    cursor: pointer;
+    border-top: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    border-left: 1px solid #ff0000;
+}
+
+.kotak-3 input:hover{
+    color: #ff0000;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
+.kotak-3 input{
+    text-align: center;
+    width: 185px;
+    height: 40px;
+    color: #999798;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*
+.kotak-3 i{
+    margin-top: 26px;
+    float: left;
+    color: #999798;
+}*/
+
+
+.kotak-4{
+    width: 185px;
+    height: 40px;
+    background: #ff0000;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.kotak-4 input{
+    width: 185px;
+    height: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*
+.kotak-4 i{
+    margin-top: 26px;
+    float: left;
+    color: #999798;
+    margin-left: 34px;
+}*/
+
+
+.kotak-5{
+    width: 185px;
+    height: 40px;
+    background: #0F0909;
+    border-top: 1px solid #999798;
+    border-right: 1px solid #999798;
+    border-left: 1px solid #999798;
+    border-bottom: 1px solid #999798;
+    float: left;
+    margin-left: 10px;
+}
+
+.kotak-5:hover{
+    background: #000000;
+    transition: 0.9s;
+    cursor: pointer;
+    border-top: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    border-left: 1px solid #ff0000;
+}
+
+.kotak-5 input:hover{
+    color: #ff0000;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
+.kotak-5 input{
+    text-align: center;
+    width: 185px;
+    height: 40px;
+    color: #999798;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*
+.kotak-5 i{
+    margin-top: 26px;
+    float: left;
+    color: #999798;
+}*/
+
+
+.kotak-6{
+    width: 185px;
+    height: 40px;
+    background: #0F0909;
+    border-top: 1px solid #999798;
+    border-right: 1px solid #999798;
+    border-left: 1px solid #999798;
+    border-bottom: 1px solid #999798;
+    float: left;
+    margin-left: 10px;
+}
+
+.kotak-6:hover{
+    background: #000000;
+    transition: 0.9s;
+    cursor: pointer;
+    border-top: 1px solid #ff0000;
+    border-right: 1px solid #ff0000;
+    border-bottom: 1px solid #ff0000;
+    border-left: 1px solid #ff0000;
+}
+
+.kotak-6 input:hover{
+    color: #ff0000;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+
+.kotak-6 input{
+    text-align: center;
+    width: 185px;
+    height: 40px;
+    float: left;
+    color: #999798; 
+    text-align: center;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/*
+.kotak-6 i{
+    margin-top: 26px;
+    float: left;
+    color: #999798;
+}*/
+
+.donwload-kotak-1{
+    width: 540px;
+    height:450px;
+    background: #103440;
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-top: 1px solid #88C6D5;
+    border-bottom: 1px solid #88C6D5;
+    border-right: 1px solid #88C6D5;
+    border-left: 1px solid #88C6D5;
+}
+
+.a-judul{
+    width: 540px;
+    height: 50px;
+    float: left;
+    margin-top: 7%;
+}
+
+.a-judul h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #25C7DE;
+    text-align: center;
+    letter-spacing: 0.1;
+}
+
+.a-1{
+    width: 350px;
+    height: 43px;
+    float: left;
+    margin-left: 18%;
+    margin-top: 20px;
+    background: none;
+    border-top: 1px solid #00CDFE;
+    border-bottom: 1px solid #00CDFE;
+}
+
+.a-1-a p{
+    float: left;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 1;
+    color: #25C7DE;
+    font-family: sans-serif;
+}
+
+.a-1-a-1 p{
+    float: right;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.a-2{
+    width: 350px;
+    height: 43px;
+    float: left;
+    margin-left: 18%;
+    background: none;
+    border-bottom: 1px solid #00CDFE;
+}
+
+.a-2-a p{
+    float: left;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 1;
+    color: #25C7DE;
+    font-family: sans-serif;
+}
+
+.a-2-a-2 p{
+    float: right;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.a-3{
+    width: 350px;
+    height: 43px;
+    float: left;
+    margin-left: 18%;
+    background: none;
+    border-bottom: 1px solid #00CDFE;
+}
+
+.a-3-a p{
+    float: left;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #25C7DE;
+    font-family: sans-serif;
+}
+
+.a-3-a-3 p{
+    float: right;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.a-bawah{
+    width: 540px;
+    height: 30px;
+    float: left;
+    margin-top: 18px;
+}
+
+.a-bawah-1- p{
+    float: left;
+    margin-left: 30%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.a-bawah-2- p{
+    float: left;
+    margin-left: 28%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.a-button-1 input{
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 165px;
+    height: 60px;
+    font-family: sans-serif;
+    background: #00CDFE;
+    border-top: 1px solid #00CDFE;
+    border-bottom: 1px solid #00CDFE;
+    border-right: 1px solid #00CDFE;
+    border-left: 1px solid #00CDFE;
+    border: none;
+    outline: none;
+    color: #1e272e;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.a-button-1 input:hover{
+    background: #000000;
+    color: #00CDFE;
+    transition: 0.5s;
+    border-top: 1px solid #00CDFE;
+    border-bottom: 1px solid #00CDFE;
+    border-right: 1px solid #00CDFE;
+    border-left: 1px solid #00CDFE;
+}
+
+.a-button-2 input{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 165px;
+    height: 60px;
+    font-family: sans-serif;
+    background: #00CDFE;
+    border-top: 1px solid #00CDFE;
+    border-bottom: 1px solid #00CDFE;
+    border-right: 1px solid #00CDFE;
+    border-left: 1px solid #00CDFE;
+    border: none;
+    outline: none;
+    color: #1e272e;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.a-button-2 input:hover{
+    background: #000000;
+    color: #00CDFE;
+    transition: 0.5s;
+    border-top: 1px solid #00CDFE;
+    border-bottom: 1px solid #00CDFE;
+    border-right: 1px solid #00CDFE;
+    border-left: 1px solid #00CDFE;
+}
+
+.a-foter p{
+    float: left;
+    text-align: center;
+    color: #00CDFE;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 540px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/*KOTAK 2*/
+.donwload-kotak-2{
+    width: 540px;
+    height:450px;
+    background: #33280A;
+    float: left;
+    margin-top: 5%;
+    margin-left: 50px;
+    border-top: 1px solid #E3D574;
+    border-bottom: 1px solid #E3D574;
+    border-right: 1px solid #E3D574;
+    border-left: 1px solid #E3D574;
+    /*opacity: 0.5; untuk transparant backgroundnya */
+}
+
+.b-judul{
+    width: 540px;
+    height: 50px;
+    float: left;
+    margin-top: 7%;
+}
+
+.b-judul h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #E8DA22;
+    text-align: center;
+    letter-spacing: 0.1;
+}
+
+.b-1{
+    width: 350px;
+    height: 43px;
+    float: left;
+    margin-left: 18%;
+    margin-top: 20px;
+    background: none;
+    border-top: 1px solid #E8DA22;
+    border-bottom: 1px solid #E8DA22;
+}
+
+.b-1-b p{
+    float: left;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 1;
+    color: #E8DA22;
+    font-family: sans-serif;
+}
+
+.b-1-b-1 p{
+    float: right;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.b-2{
+    width: 350px;
+    height: 43px;
+    float: left;
+    margin-left: 18%;
+    background: none;
+    border-bottom: 1px solid#E8DA22;
+}
+
+.b-2-b p{
+    float: left;
+    font-size: 12px;
+    margin-top: 15px;
+    line-height: 1;
+    color: #E8DA22;
+    font-family: sans-serif;
+}
+
+.b-2-b-2 p{
+    float: right;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+
+
+.b-3{
+    width: 350px;
+    height: 43px;
+    float: left;
+    margin-left: 18%;
+    background: none;
+    border-bottom: 1px solid #E8DA22;
+}
+
+.b-3-b p{
+    float: left;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #E8DA22;
+    font-family: sans-serif;
+}
+
+.b-3-b-3 p{
+    float: right;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.b-button input{
+    float: left;
+    margin-top: 60px;
+    width: 190px;
+    height: 60px;
+    margin-left: 32%;
+    cursor: pointer;
+    background: #FFCC00;
+    border-top: 1px solid #FFCC00;
+    border-bottom: 1px solid #FFCC00;
+    border-right: 1px solid #FFCC00;
+    border-left: 1px solid #FFCC00;
+    color: #1e272e;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.b-button input:hover{
+    background: #000000;
+    color: #FFCC00;
+    transition: 0.5s;
+    border-top: 1px solid #FFCC00;
+    border-bottom: 1px solid #FFCC00;
+    border-right: 1px solid #FFCC00;
+    border-left: 1px solid #FFCC00;
+}
+
+
+/*SELESAI KOTAK 2*/
+
+
+/*KOTAK 3*/
+.donwload-kotak-3{
+    width: 1130px;
+    height:530px;
+    margin-left: 20%;
+    float: left;
+    background: #393D1A;
+    margin-top: 2.5%;
+    border-top: 1px solid #89CD00;
+    border-bottom: 1px solid #89CD00;
+    border-right: 1px solid #89CD00;
+    border-left: 1px solid #89CD00;
+}
+
+.c-judul{
+    width: 1130px;
+    height: 35px;
+    float: left;
+    margin-top: 3%;
+}
+
+.c-judul h3{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: #89CD00;
+    letter-spacing: 0.1;
+    font-weight: bold;
+}
+
+.c-text-bwh-judul{
+    float: left;
+    width: 1130px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.c-text-bwh-judul p{
+    text-align: center;
+    color: #89CD00;
+    font-family: sans-serif;
+    font-size: 12;
+    line-height: 1;
+}
+
+.text{
+    width: 850px;
+    height: 40px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+.text-kiri{/*LINK 2*/
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin-right: 3.4%;
+}
+
+.text-kiri h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.text-kanan{/*LINK 1*/
+    float: right;
+    width: 100px;
+    height: 40px;
+    margin-right: 4.2%;
+}
+
+.text-kanan h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.c-1{
+    width: 850px;
+    height: 223px;
+    float: left;
+    margin-left: 12%;
+}
+
+
+/*NOMER 1*/
+.ijo-1{
+    width: 850px;
+    height: 43px;
+    float: left;
+    border-top: 2px solid #88CB00;
+    border-bottom: 2px solid #88CB00;
+    position: relative;
+}
+
+.ijo-1-c- p{
+    float: left;
+    color: #89CD00;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-1-c-1 p{
+    float: left;
+    margin-left: 20%;
+    color: #bbbbbb;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-1-c-1- p{
+    float: left;
+    margin-left: 5%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-button-1-kiri input{
+    float: left;
+    margin-left: 5%;
+    color: #89CD00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ijo-button-1-kiri input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ijo-button-1-kanan input{
+    float: left;
+    margin-left: 2%;
+    color: #88CB00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 33px;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.ijo-button-1-kanan input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*SELESAI NOMER 1*/
+
+/*NOMER 2*/
+.ijo-2{
+    width: 850px;
+    height: 43px;
+    float: left;
+    border-bottom: 2px solid #88CB00;
+}
+
+.ijo-2-c- p{
+    float: left;
+    color: #89CD00;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-2-c-2 p{
+    float: left;
+    margin-left: 19%;
+    color: #bbbbbb;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-2-c-2- p{
+    float: left;
+    margin-left: 5%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-button-2-kiri input{
+    float: left;
+    margin-left: 5%;
+    color: #89CD00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ijo-button-2-kiri input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ijo-button-2-kanan input{
+    float: left;
+    margin-left: 2%;
+    color: #88CB00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.ijo-button-2-kanan input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*SELESAI NOMER 2*/
+
+/*NOMER 3*/
+.ijo-3{
+    width: 850px;
+    height: 43px;
+    float: left;
+    border-bottom: 2px solid #88CB00;
+}
+
+.ijo-3-c- p{
+    float: left;
+    color: #89CD00;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-3-c-3 p{
+    float: left;
+    margin-left: 21%;
+    color: #bbbbbb;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-3-c-3- p{
+    float: left;
+    margin-left: 5%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-button-3-kiri input{
+    float: left;
+    margin-left: 5%;
+    color: #89CD00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ijo-button-3-kiri input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ijo-button-3-kanan input{
+    float: left;
+    margin-left: 2%;
+    color: #88CB00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.ijo-button-3-kanan input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*SELESAI NOMER 3*/
+
+
+/*NOMER 4*/
+.ijo-4{
+    width: 850px;
+    height: 43px;
+    float: left;
+    border-bottom: 2px solid #88CB00;
+}
+
+.ijo-4-c- p{
+    float: left;
+    color: #89CD00;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-4-c-4 p{
+    float: left;
+    margin-left: 20%;
+    color: #bbbbbb;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-4-c-4- p{
+    float: left;
+    margin-left: 5%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-button-4-kiri input{
+    float: left;
+    margin-left: 5%;
+    color: #89CD00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ijo-button-4-kiri input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ijo-button-4-kanan input{
+    float: left;
+    margin-left: 2%;
+    color: #88CB00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.ijo-button-4-kanan input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*SELESAI NOMER 4*/
+
+/*NOMER 5*/
+.ijo-5{
+    width: 850px;
+    height: 43px;
+    float: left;
+    border-bottom: 2px solid #88CB00;
+}
+
+.ijo-5-c- p{
+    float: left;
+    color: #89CD00;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-5-c-5 p{
+    float: left;
+    margin-left: 21%;
+    color: #bbbbbb;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-5-c-5- p{
+    float: left;
+    margin-left: 5%;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.ijo-button-5-kiri input{
+    float: left;
+    margin-left: 5%;
+    color: #89CD00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ijo-button-5-kiri input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ijo-button-5-kanan input{
+    float: left;
+    margin-left: 2%;
+    color: #88CB00;
+    background: #435604;
+    border-top: 1px solid #617B32;
+    border-left: 1px solid #617B32;
+    border-bottom: 1px solid #617B32;
+    border-right: 1px solid #617B32;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.ijo-button-5-kanan input:hover{
+    background: #000000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+/*SELESAI NOMER 5*/
+
+
+.c-button-1 input{
+    float: left;
+    width: 250px;
+    height: 60px;
+    border: none;
+    outline: none;
+    margin-left: 28%;
+    margin-top: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #89CD00;
+    background: #435604;
+    border-top: 1px solid #88CB00;
+    border-left: 1px solid #88CB00;
+    border-bottom: 1px solid #88CB00;
+    border-right: 1px solid #88CB00;
+    cursor: pointer;
+}
+
+.c-button-1 input:hover{
+    background: #000000;
+    border-top: 1px solid #88CB00;
+    border-left: 1px solid #88CB00;
+    border-bottom: 1px solid #88CB00;
+    border-right: 1px solid #88CB00;
+    transition: 0.5s;
+}
+
+.c-button-2 input{
+    float: left;
+    margin-left: 15px;
+    width: 190px;
+    height: 60px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    background: #88CB00;
+    border-top: 1px solid #88CB00;
+    border-left: 1px solid #88CB00;
+    border-bottom: 1px solid #88CB00;
+    border-right: 1px solid #88CB00;
+    cursor: pointer;
+    color: #1e272e;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.c-button-2 input:hover{
+    color:#88CB00 ;
+    background: #000000;
+    border-top: 1px solid #88CB00;
+    border-left: 1px solid #88CB00;
+    border-bottom: 1px solid #88CB00;
+    border-right: 1px solid #88CB00;
+    transition: 0.5s;
+}
+
+/*.TEXT FOTER CONTEN */
+.text-foter-conten{
+    width: 1130px;
+    height: 290px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.header-foter-conten{
+    width: 1130px;
+    height: 60px;
+    float: left;
+}
+
+.header-foter-conten p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #EA2027;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.header-foter-conten-isi{
+    width: 1130px;
+    height: 215px;
+    float: left;
+    background: none;
+    border-top: 1px solid #808e9b;
+    border-bottom: 1px solid #808e9b;
+}
+
+.text-1-f{
+    width: 800px;
+    height: 28px;
+    float: left;
+    margin-top: 2%;
+}
+
+.text-1-f p{
+    color: #808e9b;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 5%;
+}
+
+
+.text-2-f{
+    width: 800px;
+    height: 28px;
+    float: left;
+}
+
+.text-2-f p{
+    color: #808e9b;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 5%;
+    float: left;
+}
+
+.text-2-f h3{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.text-3-f{
+    width: 800px;
+    height: 28px;
+    float: left;
+}
+
+.text-3-f p{
+    color: #808e9b;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 5%;
+    float: left;
+}
+
+.text-3-f h3{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.text-4-f{
+    width: 800px;
+    height: 28px;
+    float: left;
+}
+
+.text-4-f p{
+    color: #808e9b;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 5%;
+    float: left;
+}
+
+.text-4-f h3{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.text-5-f{
+    width: 800px;
+    height: 28px;
+    float: left;
+}
+
+.text-5-f p{
+    color: #808e9b;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 5%;
+    float: left;
+}
+
+.text-5-f h3{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    float: left;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.text-f-button input{ 
+    width: 280px;
+    height: 60px;
+    float: left;
+    margin-top: 3%;
+    margin-left: 38%;
+    background: #333333;
+    border: none;
+    outline: none;
+    color: #f1f2f6;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    border-top: 1px solid #747d8c;
+    border-bottom: 1px solid #747d8c;
+    border-right: 1px solid #747d8c;
+    border-left: 1px solid #747d8c;
+}
+
+.text-f-button input:hover{
+    background: #000000;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/*SELESAI FOTER CONTEN*/
+
+/*FOTER*/
+.foter{
+    width: 100%;
+    height: 396px;
+    background: #000000;
+}
+
+.foter-1{
+    width: 100%;
+    height: 322px;
+    border-bottom: 1px solid #333333;
+}
+
+.foter-atas-1{
+    float: left;
+    width: 1200px;
+    height: 322px;
+}
+
+.img-foter{
+    width: 168px;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 38px;
+}
+
+.tempat-img{
+    width: 168px;
+    height: 48px;
+    margin-top: 12px;
+}
+
+.tempat-img img{
+    width: 168px;
+    height: 48px;
+}
+
+/*COLOM 1*/
+.text-foter-colom-1 {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-left: 5%;
+}
+
+.title-foter{
+    width: 250px;
+    height: 40px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.conten-foter{
+    float: left;
+    width: 250px;
+    height: 210px;
+}
+
+.conten-foter p a{
+    color: #737466;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1;
+}
+
+.conten-foter a{
+    text-decoration: none;
+}
+
+.conten-foter p a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+    transition: 0.5s;
+}
+/*SELESAI COLOM 1*/
+
+/*COLOM 2*/
+.text-foter-colom-2 {
+    width: 130px;
+    height: 250px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-left: 1%;
+}
+
+.title-foter-2{
+    width: 250px;
+    height: 40px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.conten-foter-2{
+    float: left;
+    width: 250px;
+    height: 210px;
+}
+
+.conten-foter-2 p a{
+    color: #737466;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1;
+    float: left;
+}
+
+.conten-foter-2 a{
+    text-decoration: none;
+}
+
+.conten-foter-2 p a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+    transition: 0.5s;
+}
+
+.conten-foter-2 i{
+    color: #ff0000;
+    float: left;
+    margin-left: 6px;
+    font-size: 12px;
+}
+/*SELESAI COLOM2*/
+
+/*COLOM3*/
+.text-foter-colom-3 {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-left: 1%;
+}
+
+.title-foter-3{
+    width: 250px;
+    height: 40px;
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.conten-foter-3{
+    float: left;
+    width: 250px;
+    height: 210px;
+}
+
+.conten-foter-3 p a{
+    color: #737466;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1;
+}
+
+.conten-foter-3 a{
+    text-decoration: none;
+}
+
+.conten-foter-3 p a:hover{
+    text-decoration: underline;
+    color: #ff0000;
+    transition: 0.5s;
+}
+/*SELESAI COLOM 3*/
+
+.foter-2{
+    width: 100%;
+    height: 72px;
+    float: left;
+}
+
+.ukuran-text-foter{
+    width: 800px;
+    height: 72px;
+    float: left;
+    margin-left: 35px
+}
+
+.ukuran-text-foter p{
+    font-size: 11px;
+    color: #737466;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.ukuran-foter-right{
+    width: 450px;
+    height: 72px;
+    float: right;
+}
+
+.button-eko{
+    float: right;
+    width: 70px;
+    height: 72px;
+    background: #151515;
+    color: #737373;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: 1000;
+}
+
+.button-eko:hover{
+    background: #00acee;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.youtube{
+    width: 70px;
+    height: 72px;
+    font-size: 50px;
+    margin-right: 2px;
+    float: right;
+    background: #151515;
+}
+
+.youtube i{
+    width: 70px;
+    height: 72px;
+    font-size: 30px;
+    color: #737373;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+
+.youtube:hover{
+    background: #c4302b ;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.youtube i:hover{
+    color: #ffffff;
+}
+
+.instagram{
+    width: 70px;
+    height: 72px;
+    font-size: 50px;
+    margin-right: 2px;
+    float: right;
+    background: #151515;
+}
+
+.instagram i{
+    width: 70px;
+    height: 72px;
+    font-size: 30px;
+    color: #737373;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.instagram:hover{
+    background: #cc0000;
+    /*background: radial-gradient(circle at bottom left, #FEC053,  #EE243F, #AC3C96 , #5655A4);*/
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.instagram i:hover{
+    color: #ffffff;
+}
+
+.facebook{
+    width: 70px;
+    height: 72px;
+    font-size: 50px;
+    margin-right: 2px;
+    float: right;
+    background: #151515;
+}
+
+.facebook i{
+    width: 70px;
+    height: 72px;
+    font-size: 30px;
+    color: #737373;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.facebook:hover{
+    background: #3b5998 ;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.facebook i:hover{
+    color: #ffffff;
+}
+
+
+.twitter{
+    width: 70px;
+    height: 72px;
+    font-size: 50px;
+    margin-right: 2px;
+    float: right;
+    background: #151515;
+}
+
+.twitter i{
+    width: 70px;
+    height: 72px;
+    font-size: 30px;
+    color: #737373;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.twitter:hover{
+    background: #00acee;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.twitter i:hover{
+    color: #ffffff;
+}
+
+/*
+.ckls{
+    width: 68px;
+    height: 68px;
+    border-radius: 100px;
+    background:#151515;
+    float: right;
+    margin-right: 3px;
+    margin-top: 2px;
+    outline: none;
+}
+
+.ckls i{
+    width: 68px;
+    height: 68px;
+    font-size: 30px;
+    color: #737373 ;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.ckls i:hover{
+    background: #00acee;
+    color: #ffffff;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+}
